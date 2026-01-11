@@ -18,12 +18,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
       - run: npm install
       - name: Build
         run: npm run build
         env:
-          # GitHub Secrets에 저장한 API_KEY를 가져옵니다.
           API_KEY: ${{ secrets.API_KEY }}
       - name: Setup Pages
         uses: actions/configure-pages@v4
