@@ -1,0 +1,7 @@
+{
+  "name": "Copy of OmniData AI Explorer",
+  "description": "A hierarchical data organizer with AI-powered tool creation, folder-based file management, and cross-reference data logic.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

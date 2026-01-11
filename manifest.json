@@ -1,0 +1,16 @@
+
+{
+  "short_name": "OmniData",
+  "name": "OmniData AI Explorer",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/5968/5968263.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "theme_color": "#4f46e5"
+}
